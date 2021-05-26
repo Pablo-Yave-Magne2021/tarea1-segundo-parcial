@@ -1,0 +1,13 @@
+	proceso MayorDiezNumeros
+		Definir num, mayor, cont como entero;
+		mayor <- 0;
+		Para cont <- 1 Hasta 10 Con Paso 1 Hacer
+			Escribir "ingrese numero",cont,";";
+			leer num;
+			Si (mayor < num) Entonces
+				mayor <- num;
+			Fin Si
+		Fin Para
+		Escribir "EL MAYOR ES ;",mayor;
+FinProceso
+
